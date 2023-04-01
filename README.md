@@ -1,2 +1,2 @@
 # singleflight
-singleflight in rust inspired by [golang.org/x/sync/singleflight](golang.org/x/sync/singleflight)
+singleflight in rust inspired by https://pkg.go.dev/golang.org/x/sync/singleflight
