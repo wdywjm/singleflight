@@ -6,7 +6,7 @@ use parking_lot::Mutex;
 type ShareSender<T> = Sender<Result<(T, bool)>>;
 type ShareReceiver<T> = Receiver<Result<(T, bool)>>;
 
-// call is an in-flight or completed singleflight.go call
+// call is an in-flight or completed call
 struct Call<T>
 where
     T: Default + Clone,
